@@ -396,6 +396,9 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+.img-fluid{
+  border-radius: 50%;
+}
 
 /*--------------------------------------------------------------
 # Facts
