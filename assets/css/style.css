@@ -70,6 +70,12 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
 }
 
+#preloader center{
+  font-size: 40px;
+  color: #0865bb;
+  font-weight: 900;
+}
+
 #preloader:before {
   content: "";
   position: fixed;
@@ -84,6 +90,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-animation: animate-preloader 1s linear infinite;
   animation: animate-preloader 1s linear infinite;
 }
+
 
 @-webkit-keyframes animate-preloader {
   0% {
